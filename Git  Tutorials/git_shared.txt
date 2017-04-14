@@ -1,0 +1,63 @@
+Microsoft Windows [Version 6.1.7601]
+Copyright (c) 2009 Microsoft Corporation.  All rights reserved.
+
+D:\PrashantHarney\dev\code\IRP-Batch-Repo>cd ..
+
+D:\PrashantHarney\dev\code>git init --bare IRP-Batch-Repo-Shared.git
+Initialized empty Git repository in D:/PrashantHarney/dev/code/IRP-Batch-Repo-Sh
+ared.git/
+
+D:\PrashantHarney\dev\code>cd IRP-Batch-Repo-Shared.git
+
+D:\PrashantHarney\dev\code\IRP-Batch-Repo-Shared.git>dir ?AH
+ Volume in drive D is Data
+ Volume Serial Number is C8CC-6101
+
+ Directory of D:\PrashantHarney\dev\code\IRP-Batch-Repo-Shared.git
+
+File Not Found
+
+D:\PrashantHarney\dev\code\IRP-Batch-Repo-Shared.git>dir /AH
+ Volume in drive D is Data
+ Volume Serial Number is C8CC-6101
+
+ Directory of D:\PrashantHarney\dev\code\IRP-Batch-Repo-Shared.git
+
+File Not Found
+
+D:\PrashantHarney\dev\code\IRP-Batch-Repo-Shared.git>git status
+fatal: This operation must be run in a work tree
+
+D:\PrashantHarney\dev\code\IRP-Batch-Repo-Shared.git>dir
+ Volume in drive D is Data
+ Volume Serial Number is C8CC-6101
+
+ Directory of D:\PrashantHarney\dev\code\IRP-Batch-Repo-Shared.git
+
+03/29/2017  03:26 PM    <DIR>          .
+03/29/2017  03:26 PM    <DIR>          ..
+03/29/2017  03:26 PM               104 config
+03/29/2017  03:26 PM                73 description
+03/29/2017  03:26 PM                23 HEAD
+03/29/2017  03:26 PM    <DIR>          hooks
+03/29/2017  03:26 PM    <DIR>          info
+03/29/2017  03:26 PM    <DIR>          objects
+03/29/2017  03:26 PM    <DIR>          refs
+               3 File(s)            200 bytes
+               6 Dir(s)  211,285,962,752 bytes free
+
+D:\PrashantHarney\dev\code\IRP-Batch-Repo-Shared.git>git log
+fatal: your current branch 'master' does not have any commits yet
+
+D:\PrashantHarney\dev\code\IRP-Batch-Repo-Shared.git>git branch
+* master
+
+D:\PrashantHarney\dev\code\IRP-Batch-Repo-Shared.git>git log
+commit 5bd3d79ed91606965f277d06a767e98851569c5b
+Author: Harney <prashant.harney@capgemini.com>
+Date:   Wed Mar 29 15:22:57 2017 +0530
+
+    initial commit
+
+D:\PrashantHarney\dev\code\IRP-Batch-Repo-Shared.git>
+

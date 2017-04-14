@@ -1,0 +1,63 @@
+Microsoft Windows [Version 6.1.7601]
+Copyright (c) 2009 Microsoft Corporation.  All rights reserved.
+
+D:\PrashantHarney\dev\code\IRP-Batch-Repo>cd ..
+
+D:\PrashantHarney\dev\code>git init IRP-Batch-Repo2
+Initialized empty Git repository in D:/PrashantHarney/dev/code/IRP-Batch-Repo2/.
+git/
+
+D:\PrashantHarney\dev\code>cd IRP-Batch-
+The system cannot find the path specified.
+
+D:\PrashantHarney\dev\code>cd IRP-Batch-Repo2
+
+D:\PrashantHarney\dev\code\IRP-Batch-Repo2>git remote add origin4 D:\PrashantHar
+ney\dev\code\IRP-Batch-Repo-Shared.git
+
+D:\PrashantHarney\dev\code\IRP-Batch-Repo2>git remote -v
+origin4 D:\PrashantHarney\dev\code\IRP-Batch-Repo-Shared.git (fetch)
+origin4 D:\PrashantHarney\dev\code\IRP-Batch-Repo-Shared.git (push)
+
+D:\PrashantHarney\dev\code\IRP-Batch-Repo2>git fetch origin4
+remote: Counting objects: 3, done.
+remote: Total 3 (delta 0), reused 0 (delta 0)
+Unpacking objects: 100% (3/3), done.
+From D:\PrashantHarney\dev\code\IRP-Batch-Repo-Shared
+ * [new branch]      master     -> origin4/master
+
+D:\PrashantHarney\dev\code\IRP-Batch-Repo2>git branch
+
+D:\PrashantHarney\dev\code\IRP-Batch-Repo2>git branch -r
+  origin4/master
+
+D:\PrashantHarney\dev\code\IRP-Batch-Repo2>dir
+ Volume in drive D is Data
+ Volume Serial Number is C8CC-6101
+
+ Directory of D:\PrashantHarney\dev\code\IRP-Batch-Repo2
+
+03/29/2017  03:39 PM    <DIR>          .
+03/29/2017  03:39 PM    <DIR>          ..
+               0 File(s)              0 bytes
+               2 Dir(s)  211,285,397,504 bytes free
+
+D:\PrashantHarney\dev\code\IRP-Batch-Repo2>git merge origin4/master
+
+D:\PrashantHarney\dev\code\IRP-Batch-Repo2>dir
+ Volume in drive D is Data
+ Volume Serial Number is C8CC-6101
+
+ Directory of D:\PrashantHarney\dev\code\IRP-Batch-Repo2
+
+03/29/2017  03:43 PM    <DIR>          .
+03/29/2017  03:43 PM    <DIR>          ..
+03/29/2017  03:43 PM                14 test.txt
+               1 File(s)             14 bytes
+               2 Dir(s)  211,285,397,504 bytes free
+
+D:\PrashantHarney\dev\code\IRP-Batch-Repo2>
+
+
+
+
